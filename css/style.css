@@ -103,3 +103,31 @@ a {
     margin-top: 8px;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quote-background {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    margin-top: 64px;
+    padding: 24px 96px;
+    align-self: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic ;
+}
+
+.quote-author {
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: 800;
+    margin-right: 96px;
+    font-size: 24px;
+}
+
