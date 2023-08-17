@@ -61,7 +61,7 @@ a {
     font-size: 18px;
 }
 
-.fancy-button {
+.primary-button {
     background-color: #3882F6;
     padding: 8px 36px;
     color: #F9FAF8;
@@ -129,5 +129,40 @@ a {
     font-weight: 800;
     margin-right: 96px;
     font-size: 24px;
+}
+
+.action-container {
+    border-radius: 16px;
+    padding: 48px 24px;
+    background-color: #3882F6;
+    margin-top: 64px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.action-description {
+    flex-basis: 560px;
+}
+
+.strong {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.strong > span {
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.secondary-button {
+    background-color: #3882F6;
+    padding: 8px 36px;
+    color: #F9FAF8;
+    border: 2px #F9FAF8 solid;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 16px 0px;
 }
 
