@@ -7,11 +7,11 @@ body {
 .container {
     padding-left:  320px;
     padding-right: 320px;
+    padding-bottom: 96px;
 }
 
 header {
     background-color: #1F2937;
-    padding-bottom: 96px;
 }
 
 .navigation ul {
@@ -72,4 +72,34 @@ a {
     margin: 16px 0px;
 }
 
+.information-header {
+    margin: 64px 0px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.illustration-container {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.illustration img {
+    border: 3px #3882F6 solid;
+    border-radius: 12.5%;
+}
+
+.illustration-description {
+    color: #1F2937;
+    text-align: center;
+    margin-top: 8px;
+}
 
