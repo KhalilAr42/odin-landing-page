@@ -1,25 +1,20 @@
-
 body {
     margin: 0;
     color: #F9FAF8;
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.menu ul li{
-    list-style: none;
+.container {
+    padding-left:  320px;
+    padding-right: 320px;
 }
 
-.menu ul li a {
-    text-decoration: none;
-    color: #F9FAF8;
-}
-
-.header {
+header {
     background-color: #1F2937;
-    padding: 0px 300px 128px 300px;
+    padding-bottom: 96px;
 }
 
-.menu ul {
+.navigation ul {
     margin: 0;
     padding: 16px 0px;
     display: flex;
@@ -27,35 +22,46 @@ body {
     gap: 48px;
 }
 
-.menu ul li:first-child{
+.navigation ul li:first-child{
     margin-right: auto;
+}
+
+.navigation ul li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
 .link {
     font-size: 18px;
 }
 
-.link.logo {
+.link.logo{
     font-size: 24px;
     font-weight: bold;
 }
 
-.hero-banner {
-    display: flex;
-    gap: 96px;
+.hero-banner-container {
     margin-top: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 96px;
 }
 
-.hero-banner .title {
+.hero-banner-container .title {
     font-size: 48px;
     font-weight: 900;
 }
 
-.hero-banner .description {
+.hero-banner-container .description {
     font-size: 18px;
 }
 
-.primary-button {
+.fancy-button {
     background-color: #3882F6;
     padding: 8px 36px;
     color: #F9FAF8;
@@ -65,7 +71,5 @@ body {
     font-size: 18px;
     margin: 16px 0px;
 }
-
-.description-container {}
 
 
